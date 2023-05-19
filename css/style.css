@@ -254,4 +254,8 @@ footer {
 		margin-left: 2.2rem;
 		font-size: 0.7rem;
 	}
+
+	.form-group.error ~ .btn {
+		transform: translateY(0);
+	}
 }
